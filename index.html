@@ -12,8 +12,8 @@
     <title>Simple site (NEW)</title>
 </head>
 <body>
-  <div class="first-screen">
-      <div class="container-one">
+  <div class="first-screen"><!--
+    --><div class="container-one">
           <div class="menu"><!--
             --><div class="header main">главная</div><!--
             --><div class="header">об авторе</div><!--
@@ -22,19 +22,27 @@
             --><div class="header last">контакты</div><!--
         --></div>
             <h1 class="title">Дизайн и верстка</h1>
-            <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lo rem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
-        </div>    
+            <div><p class="one">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lo rem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
+            </div><!--
+        --><div class="buttons"><!--
+            --><div class="button">
+                    <p class="button-one">Написать мне</p>
+                </div><!--
+        --></div><!--
+    --></div>    
   </div>
   <div class="two-screen">
       <div class="container-two">
-        <h1 class="sub-title">Обо мне</h1>
-        <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lo rem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
+            <div class="about-me">
+                <h1 class="sub-title">Обо мне</h1>
+                <div><p class="two">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lo rem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p></div>
+            </div>
       </div>
   </div>
-  <div class="third-screen">
-    <div class="container-three">
-        <div class="cards">
-            <div class="card">
+  <div class="third-screen"><!--
+--><div class="container-three"><!--
+        --><div class="cards"><!--
+            --><div class="card">
                 <img src="images/project.png" alt="" class="card icon">
                 <h2 class="card-title">40+</h2>
                 <p class="card-text">проектов</p>
@@ -69,13 +77,19 @@
   </div>
     <div class="fourth-screen">
         <div class="container-four">
-            <h1 class="sub-title">Как я работаю</h1>
-            <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lo rem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
-            <video></video>
+            <div class="how-i-work">
+                <h1 class="sub-title">Как я работаю</h1>
+                <p class="three">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lo rem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
+            </div>
+            <div class="video"><video src="video/front-end-basic.mp4" width="1110" height="600"controls></video>
+            </div>
         </div>
     </div>
     <div class="fifth-screen">
-        <div class="container-five"></div> 
+        <div class="container-five">
+            <div class="text-four"><p class="four">Иванов Иван</p></div>
+            <div class="text-five"><p class="five">(с) 2018. Все права защищены.</p></div>
+        </div> 
     </div> 
 </body>
 </html>
