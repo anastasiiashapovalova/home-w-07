@@ -30,12 +30,13 @@ body {
 
 .header {
     display: inline-block;
+    vertical-align: top;
     padding-right: 42px;
     text-transform: uppercase;
     font-size: 16px;
     line-height: 18px;
     letter-spacing: 0.1em;
-    }
+}
 
 .header.main{
     color: #34547A;
@@ -123,20 +124,50 @@ p.three {
 }
 
 .cards {
-    background-color: #34547A;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 0;
 }
 
 .card {
+    display: inline;
+    text-align: center;
+    margin-right: 49px;
+}
+
+.card.one {
+    margin-right: 45px;
+}
+
+.card.last {
+    margin-right: 0;
+}
+
+.icon-text {
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.image {
     display: inline-block;
     vertical-align: top;
+    margin-right: 20px;
 }
 
 .card-title {
     color: white;
+    font-weight: 500;
+    text-align: left;
 }
 
 .card-text {
     color: white;
+}
+
+.forty-plus {
+    margin-bottom: 5px;
 }
 
 .container-four {
@@ -183,10 +214,10 @@ p.three {
 }
 
 p.four {
-font-weight: 500px;
-font-size: 21px;
-line-height: 24px;
-color: #FFFFFF;
+    font-weight: 500px;
+    font-size: 21px;
+    line-height: 24px;
+    color: #FFFFFF;
 }
 
 p.five {
